@@ -1,8 +1,11 @@
 function bisiesto(n) {
-    if (n%400===0)
-  
-      return "True";
+    let respuesta;
+    if (n%400===0){
+        respuesta="True";
     }
-  
-  
-    export default bisiesto;
+    else{
+        respuesta="False";
+    }
+    return respuesta;
+}
+export default bisiesto;
